@@ -2,6 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:mycontacts_free/ContactDb.dart';
+import 'package:mycontacts_free/activity/blockedContactsActivity.dart';
 import 'package:mycontacts_free/activity/contactActivity.dart';
 import 'package:mycontacts_free/activity/statisticsActivity.dart';
 import 'package:mycontacts_free/components/ColorSettings.dart';
@@ -437,7 +438,18 @@ class SettingsState extends State<Settings> {
                     contactService.current.length > 0
                         ? ExportSettings()
                         : SizedBox(),
-                    ColorSettings()
+                    ColorSettings(),
+                    WidgetUtils.settingsTile(
+                        title: 'blocked',
+                        icon: Icons.block,
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    BlockedContactsActivity()),
+                          );
+                        })
                   ],
                 ),
               ),
