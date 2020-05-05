@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "1073780625712",
+    "firebase_url": "https://mycontacts-75f2c.firebaseio.com",
+    "project_id": "mycontacts-75f2c",
+    "storage_bucket": "mycontacts-75f2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073780625712:android:51fcb8646a1c1b598b78f5",
+        "android_client_info": {
+          "package_name": "com.kevinrmendez.contact_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073780625712-i6ejhhl2qpnfmip4s342ittdva2piaob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdYUQ-azg0cN81KEDhJi_JcZIzU4RtZoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073780625712-i6ejhhl2qpnfmip4s342ittdva2piaob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7306861253247220~8235596983"
+    }
+  ],
+  "configuration_version": "1"
+}
